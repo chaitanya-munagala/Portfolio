@@ -1,6 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:900|Roboto+Mono:300,400,700);
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
-
+@font-face {
+	font-family: pokemon;
+	src: url(Pokemon\ Solid.ttf);
+}
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.
@@ -522,7 +525,7 @@ h6 small {
 
 .h1,
 h1 {
-	font-size: 70px
+	font-size: 55px
 }
 
 .h2,
@@ -5701,8 +5704,8 @@ body.minimal {
 .white-text-container h4,
 .white-text-container h5,
 .white-text-container p {
-	text-shadow: 0 1px 3px #000;
-	color: #FF6E31
+	text-shadow: 0 1px 20px #71ffffcd;
+	color: #f5f5f5
 }
 
 .white-text-container a {
